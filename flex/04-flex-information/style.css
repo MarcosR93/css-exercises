@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -34,8 +35,7 @@ img {
 }
 
 .barberry, .chilli, .pepper, .saffron {
-  display: flex;
-  flex-direction: column;
+  max-width: 200px;
   flex: 1 1 0;
   align-items: center;
 }
